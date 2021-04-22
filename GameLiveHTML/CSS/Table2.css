@@ -25,10 +25,6 @@ header.tr{
   display: flex;
   flex-flow: row nowrap;
 }
-.tr:nth-of-type(1){
-	background: rgb(0,91,255);
-	background: linear-gradient(90deg, rgba(0,91,255,1) 12%, rgba(0,212,255,1) 45%, rgba(6,198,247,1) 69%, rgba(41,118,199,1) 97%, rgba(43,113,196,1) 100%);
-}
 .tr:nth-of-type(even) {
   background-color: #f2f2f2;
 }
@@ -48,27 +44,3 @@ input[type=number]{
   word-break: break-word;
   overflow: hidden;
   text-overflow: ellipsis;
-  min-width: 0px;
-  white-space: nowrap;
-  border-bottom: 1px solid #d0d0d0;
-}
-.btn {
-  background: rgb(0,91,255);
-  background: linear-gradient(90deg, rgba(0,91,255,1) 12%, rgba(0,212,255,1) 45%, rgba(6,198,247,1) 69%, rgba(41,118,199,1) 97%, rgba(43,113,196,1) 100%);
-  color: white;
-  padding: 12px;
-  margin: 10px 0;
-  border: none;
-  width: 100%;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 17px;
-}
-
-
-gamelive banner not streached on library.html
-gamelive banner not streached on store.html
-chat icons moved to bottom of the page.
-
-
-
